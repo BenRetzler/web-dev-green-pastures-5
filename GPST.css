@@ -124,15 +124,23 @@ footer {
   margin-left:190px;
 }
 @media only screen and (max-width: 50em) {
-	#mobile {display: inline;}
-	#desktop {display: none;}
+	#mobile {
+        display: inline;
+    }
+	#desktop {
+        display: none;
+    }
     body {
         background-color: cyan;
     }
 }
 @media only screen and (min-width: 50em) {
-	#mobile {display: none;}
-	#desktop {display: inline;}
+	#mobile {
+        display: none;
+    }
+	#desktop {
+        display: inline;
+    }
     body {
         background-color: hotpink;
     }
