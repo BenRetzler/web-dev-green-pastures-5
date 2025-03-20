@@ -145,6 +145,42 @@ footer {
         background-color: #ffffff;
         margin:0;
     }
+    #wrapper {
+        min-width:0;
+        width:auto;
+        box-shadow: none;
+        border: none;
+    }
+    header {
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        padding-left:0;
+        height: auto;
+    }
+    h1 {
+        letter-spacing: 0.1em;
+        font-size: 2em;
+    }
+    main {
+        margin-left: 0;
+    }
+    nav {
+        float:none;
+        width: auto;
+        text-align: center;
+        padding:0.5em;
+    }
+    nav li {
+        display: inline;
+        padding: 0.25em, 0.75em;
+    }
+    #homeImage, #boardImage, #trainingImage {
+        margin-left: 0;
+        height: 200px;
+    }
+    footer {
+        padding: 0;
+    }
 }
 
 
