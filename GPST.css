@@ -148,6 +148,7 @@ footer {
     }
     nav {
         padding: 0;
+        height: auto;
     }
     nav li {
         display: block;
