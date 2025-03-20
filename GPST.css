@@ -124,16 +124,16 @@ footer {
   margin-left:190px;
 }
 #mobile {
-
+    display:inline;
 }
 #desktop {
-
+    display:inline;
 }
 @media only screen and (max-width: 37.5em) {
 	#mobile {display: inline;}
 	#desktop {display: none;}
 }
-@media only screen and (min-width: 37.6em) {
+@media only screen and (min-width: 37.5em) {
 	#mobile {display: none;}
 	#desktop {display: inline;}
 }
