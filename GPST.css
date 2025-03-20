@@ -127,6 +127,11 @@ footer {
 	#mobile {display: inline;}
 	#desktop {display: none;}
 }
+@media only screen and (min-width: 37.5em) {
+	#mobile {display: none;}
+	#desktop {display: inline;}
+}
+
 
 
 
