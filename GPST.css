@@ -123,7 +123,13 @@ footer {
   background-size: 100% 100%;
   margin-left:190px;
 }
-@media only screen and (max-width: 50em) {
+#mobile {
+    display:none;
+}
+#desktop {
+    display:inline;
+}
+@media only screen and (max-width: 37.5em) {
 	#mobile {
         display: inline;
     }
@@ -132,17 +138,6 @@ footer {
     }
     body {
         background-color: cyan;
-    }
-}
-@media only screen and (min-width: 50em) {
-	#mobile {
-        display: none;
-    }
-	#desktop {
-        display: inline;
-    }
-    body {
-        background-color: hotpink;
     }
 }
 
