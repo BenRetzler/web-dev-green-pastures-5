@@ -123,6 +123,12 @@ footer {
   background-size: 100% 100%;
   margin-left:190px;
 }
+#mobile {
+    
+}
+#desktop {
+
+}
 @media only screen and (max-width: 37.5em) {
 	#mobile {display: inline;}
 	#desktop {display: none;}
