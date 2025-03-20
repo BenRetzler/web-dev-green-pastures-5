@@ -1,3 +1,6 @@
+header, main, nav, footer, figure, figcaption, aside, section, article {
+    display:block;
+}
 * {
     box-sizing: border-box;
 }
