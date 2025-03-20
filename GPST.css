@@ -129,11 +129,11 @@ footer {
 #desktop {
     display:inline;
 }
-@media only screen and (max-width: 37.5em) {
+@media only screen and (max-width: 50em) {
 	#mobile {display: inline;}
 	#desktop {display: none;}
 }
-@media only screen and (min-width: 37.5em) {
+@media only screen and (min-width: 50em) {
 	#mobile {display: none;}
 	#desktop {display: inline;}
 }
