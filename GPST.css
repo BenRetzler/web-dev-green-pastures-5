@@ -166,7 +166,7 @@ footer {
     }
     nav li {
         display: inline;
-        padding: 0.25em, 0.75em;
+        padding: 0.25em,0.75em;
     }
     #homeImage, #boardImage, #trainingImage {
         margin-left: 0px;
@@ -185,7 +185,7 @@ footer {
         display: none;
     }
     main {
-        padding: 0.1em, 1em;
+        padding: 0.1em,1em;
         font-size: 90%;
     }
     h1 {
