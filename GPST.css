@@ -132,44 +132,13 @@ footer {
 #desktop {
     display:inline;
 }
-@media only screen and (max-width: 37.5em) {
-	#mobile {
-        display: inline;
-    }
-	#desktop {
-        display: none;
-    }
-    main {
-        padding: 0.1em, 1em;
-        font-size: 90%;
-    }
-    h1 {
-        font-size: 2em;
-    }
-    nav {
-        padding: 0;
-        height: auto;
-    }
-    nav ul li {
-        display: block;
-        margin: 0;
-        border-bottom: 2px solid #330000;
-    }
-    nav a {
-        display: block;
-    }
-    #homeImage, #boardImage, #trainingImage {
-        background-image: none;
-        height: 0;
-    }
-}
 @media only screen and (max-width: 64em) {
     body {
         background-color: #ffffff;
-        margin:0;
+        margin:0px;
     }
     #wrapper {
-        min-width:0;
+        min-width:0px;
         width:auto;
         box-shadow: none;
         border: none;
@@ -186,7 +155,7 @@ footer {
         font-size: 2em;
     }
     main {
-        margin-left: 0;
+        margin-left: 0px;
     }
     nav {
         float:none;
@@ -199,11 +168,42 @@ footer {
         padding: 0.25em, 0.75em;
     }
     #homeImage, #boardImage, #trainingImage {
-        margin-left: 0;
+        margin-left: 0px;
         height: 200px;
     }
     footer {
-        padding: 0;
+        padding: 0px;
+    }
+}
+@media only screen and (max-width: 37.5em) {
+	#mobile {
+        display: inline;
+    }
+	#desktop {
+        display: none;
+    }
+    main {
+        padding: 0.1em, 1em;
+        font-size: 90%;
+    }
+    h1 {
+        font-size: 2em;
+    }
+    nav {
+        padding: 0px;
+        height: auto;
+    }
+    nav ul li {
+        display: block;
+        margin: 0px;
+        border-bottom: 2px solid #330000;
+    }
+    nav a {
+        display: block;
+    }
+    #homeImage, #boardImage, #trainingImage {
+        background-image: none;
+        height: 0px;
     }
 }
 
