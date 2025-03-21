@@ -173,6 +173,7 @@ footer {
         width:auto;
         box-shadow: none;
         border: none;
+        background-color: #ffffff;
     }
     header {
         padding-top: 0.5em;
