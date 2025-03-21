@@ -143,6 +143,8 @@ footer {
         box-shadow: none;
         border: none;
         background-color: #ffffff;
+        width:0px;
+        height:0px;
     }
     header {
         padding-top: 0.5em;
